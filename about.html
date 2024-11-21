@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About Us</title>
+    <style>
+        main {
+            padding: 2rem;
+        }
+        .team-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .profile-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            flex: 1 1 calc(33.333% - 2rem);
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        .profile-details {
+            display: none;
+            margin-top: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <p>Learn more about our team and mission.</p>
+    </header>
+    <nav>
+        <a href="index.html" id="home-link">Home</a>
+        <a href="about.html" id="about-link">About</a>
+        <a href="services.html" id="services-link">Services</a>
+        <a href="contact.html" id="contact-link">Contact</a>
+        
+    </nav>
+    <main>
+        <h2>Our Mission</h2>
+        <p>
+            Our mission is to provide exceptional services and solutions to our clients.
+            We believe in innovation, integrity, and excellence.
+        </p>
+
+        <h2>Meet the Team</h2>
+        <div class="team-section">
+            <div class="profile-card" id="profile1">
+                <img src="IMG-20210602-WA0007.jpg" alt="Profile Picture">
+                <h3>Junior DOPIL</h3>
+                <p>[CEO] Class 6 Driver</p>
+                <div class="profile-details">
+                    <p>Junior is the visionary leader behind our company. With over 10 years of experience in the industry, he ensures we stay ahead.</p>
+                </div>
+            </div>
+            <div class="profile-card" id="profile2">
+                <img src="Picsart_22-09-14_22-56-06-499.jpg" alt="Profile Picture">
+                <h3>Nathan Dau</h3>
+                <p>Class 6 Driver</p>
+                <div class="profile-details">
+                    <p>Nathan leads our tech team, creating innovative solutions to meet our clients' needs.</p>
+                </div>
+            </div>
+            <div class="profile-card" id="profile3">
+                <img src="IMG-20210611-WA0017.jpg" alt="Profile Picture">
+                <h3>Bishop Mark</h3>
+                <p>Class 3 Driver</p>
+                <div class="profile-details">
+                    <p>Bishop ensures our operations run smoothly, helping us deliver top-notch services.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+   </footer>
+<script src="script.js"></script>
+</body>
+</html>
